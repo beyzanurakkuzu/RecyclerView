@@ -6,56 +6,47 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp">
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/title_ImageView"
-        android:layout_width="93dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </com.google.android.material.imageview.ShapeableImageView>
-
     <TextView
         android:id="@+id/book_name"
-        android:layout_width="262dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="356dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
         android:text="Küçük Kara Balık"
         android:textAlignment="center"
+        android:textColor="#28514D"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/title_ImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/book_author"
-        android:layout_width="265dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="3dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/view"
+        android:textAlignment="center"
+        android:textColor="#EC3902"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/title_ImageView"
-        app:layout_constraintTop_toBottomOf="@+id/book_name"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_name" />
 
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="8dp"
-        android:layout_marginTop="24dp"
+        android:background="@color/underwhite"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_ImageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
