@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerView">
         <activity
+            android:name=".BookDetails"
+            android:exported="false" />
+        <activity
             android:name="com.beyzaakkuzu.recyclerviewproject.MainActivity"
             android:exported="true">
             <intent-filter>

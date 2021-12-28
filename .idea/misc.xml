@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/drawable/ic_baseline_grade_24.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/drawable/splash_screen.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/layout/activity_book_details.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/layout/book_details.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/RecyclerView/app/src/main/res/layout/list_item.xml" value="0.1" />
       </map>
     </option>
